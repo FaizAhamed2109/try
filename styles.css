@@ -313,7 +313,7 @@ a {
 }
 
 .home_container {
-    background-image: url("home12.jpg");
+    background-image: url("assets/home12.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -331,7 +331,7 @@ a {
 }
 
 .buisness_container {
-    background-image: url("buisness_con.jpg");
+    background-image: url("assets/buisness_con.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -349,7 +349,7 @@ a {
 }
 
 .crypto_container {
-    background-image: url("crpyto_assests.png"); /* Check for correct spelling of the image URL */
+    background-image: url("assets/crpyto_assests.png"); /* Check for correct spelling of the image URL */
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -367,7 +367,7 @@ a {
 }
 
 .stock_cur_container {
-    background-image: url("stocks.jpg");
+    background-image: url("assets/stocks.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -385,7 +385,7 @@ a {
 }
 
 .realEstate_container {
-    background-image: url("realEstates.jpg");
+    background-image: url("assets/realEstates.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -403,7 +403,7 @@ a {
 }
 
 .commodities_container {
-    background-image: url("comm.jpg");
+    background-image: url("assets/comm.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -421,7 +421,7 @@ a {
 }
 
 .oil_container {
-    background-image: url("oil.jpg");
+    background-image: url("assets/oil.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -439,7 +439,7 @@ a {
 }
 
 .foods_container {
-    background-image: url("foods.jpg");
+    background-image: url("assets/foods.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -457,7 +457,7 @@ a {
 }
 
 .precMetals_container {
-    background-image: url("prec.jpg");
+    background-image: url("assets/prec.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -475,7 +475,7 @@ a {
 }
 
 .projManage_container {
-    background-image: url("projMan.jpg");
+    background-image: url("assets/projMan.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -493,7 +493,7 @@ a {
 }
 
 .aboutUS_container {
-    background-image: url("aboutus.jpg");
+    background-image: url("assets/aboutus.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
@@ -511,7 +511,7 @@ a {
 }
 
 .location_container {
-    background-image: url("location.jpg");
+    background-image: url("assets/location.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover; /* Ensures the image covers the full container */
