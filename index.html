@@ -28,7 +28,7 @@
             <p class="home_para martel-sans-regular">United Arab Emirates</p>
     
             <!-- Logo positioned at the bottom-right corner of the main image -->
-                <img src="logo.png" class="logImg">
+                <img src="assets/logo.png" class="logImg">
             <h2 class="logoName bebas-neue-regular">IC9 LLC</h2>
             </div>
         </div>
@@ -291,50 +291,40 @@
 
 <script>
     window.addEventListener('scroll', () => {
-const sections = document.querySelectorAll('section');
+    const sections = document.querySelectorAll('section');
 
-sections.forEach(section => {
-    const sectionTop = section.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
 
-    if (sectionTop < windowHeight - 100) {
-        section.classList.add('show');
-    } else {
-        section.classList.remove('show');
-    }
-});
-});
-
-// const menuItems = document.querySelectorAll('.menu li a');
-//   const menuBtn = document.querySelector('.menu-btn');
-
-//   menuItems.forEach(item => {
-//     item.addEventListener('click', () => {
-//       menuBtn.checked = false; // Uncheck the checkbox to close the menu
-//     });
-//   });
-
-// Get all the links in the navigation bar
-const links = document.querySelectorAll('.header li a');
-const menuBtn = document.querySelector('.menu-btn');
-
-
-// Add an event listener to each link
-links.forEach(link => {
-    link.addEventListener('click', () => {
-        // Prevent the default behavior of the link
-        menuBtn.checked = false; 
-        event.preventDefault();
-
-        // Get the ID of the section that the link points to
-        const sectionId = link.getAttribute('href');
-
-        // Get the section element
-        const section = document.querySelector(sectionId);
-
-        // Scroll to the section
-        section.scrollIntoView({ behavior: 'smooth' });
+        if (sectionTop < windowHeight - 100) {
+            section.classList.add('show');
+        } else {
+            section.classList.remove('show');
+        }
     });
-});
+    });
+
+    // Get all the links in the navigation bar
+    const links = document.querySelectorAll('.header li a');
+    const menuBtn = document.querySelector('.menu-btn');
+
+    // Add an event listener to each link
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            // Prevent the default behavior of the link
+            menuBtn.checked = false; 
+            event.preventDefault();
+
+            // Get the ID of the section that the link points to
+            const sectionId = link.getAttribute('href');
+
+            // Get the section element
+            const section = document.querySelector(sectionId);
+
+            // Scroll to the section
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
 
 </script>
