@@ -741,7 +741,6 @@ footer {
   .location_container {
       height: 65vh;
       object-fit: contain;
-      color: red;
   }
   
   .home_heading {
